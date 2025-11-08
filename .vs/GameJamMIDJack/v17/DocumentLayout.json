@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Shader\\RealisticWater.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\RealisticWater.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Shader\\CandleFlame.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\CandleFlame.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
@@ -35,19 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RealisticWater.shader",
+              "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Shader\\RealisticWater.shader",
+              "RelativeDocumentMoniker": "Assets\\Shader\\RealisticWater.shader",
+              "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Shader\\RealisticWater.shader",
+              "RelativeToolTip": "Assets\\Shader\\RealisticWater.shader",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAowLAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-07T19:31:37.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CandleFlame.shader",
               "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Shader\\CandleFlame.shader",
               "RelativeDocumentMoniker": "Assets\\Shader\\CandleFlame.shader",
               "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Shader\\CandleFlame.shader",
               "RelativeToolTip": "Assets\\Shader\\CandleFlame.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAAANoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-11-07T15:36:54.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "InfernalFireParticles.cs",
               "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Efectos\\InfernalFireParticles.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Efectos\\InfernalFireParticles.cs",
@@ -55,12 +72,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Efectos\\InfernalFireParticles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T18:13:04.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T18:13:04.647Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "InfernalDemonFire.shader",
               "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Shader\\InfernalDemonFire.shader",
               "RelativeDocumentMoniker": "Assets\\Shader\\InfernalDemonFire.shader",
