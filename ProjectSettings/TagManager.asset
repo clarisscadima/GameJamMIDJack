@@ -6,19 +6,20 @@ TagManager:
   tags:
   - Ground
   - Item
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Projectile
   - Water
   - UI
+  - EnemyProjectile
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Player
+  - Enemy
+  - GroundLayer
   - 
   - 
   - 

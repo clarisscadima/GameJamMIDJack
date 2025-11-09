@@ -3,20 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Shader\\RealisticWater.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\RealisticWater.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Enemigo\\EnemySpawnManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Enemigo\\EnemySpawnManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Shader\\CandleFlame.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\CandleFlame.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Enemigo\\EnemyMelee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Enemigo\\EnemyMelee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Efectos\\InfernalFireParticles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Efectos\\InfernalFireParticles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Enemigo\\EnemyLanzador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Enemigo\\EnemyLanzador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Shader\\InfernalDemonFire.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\InfernalDemonFire.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\NPC\\NPCComerciante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\NPC\\NPCComerciante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Objetos\\Chest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Objetos\\Chest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Pista\\MapaPistas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Pista\\MapaPistas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Inventario\\ItemCollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Inventario\\ItemCollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Inventario\\Item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Inventario\\Item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Inventario\\InventorySystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Inventario\\InventorySystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Objetos\\Coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Objetos\\Coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Jugador\\PlayerUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Jugador\\PlayerUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Jugador\\PlayerShooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Jugador\\PlayerShooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Jugador\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Jugador\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Jugador\\InputManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Jugador\\InputManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Tragamonedas\\SlotMachineManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Tragamonedas\\SlotMachineManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Ruleta\\RuletaCasino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Ruleta\\RuletaCasino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Jugador\\BalaPlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Jugador\\BalaPlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Tragamonedas\\MachinePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Tragamonedas\\MachinePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,52 +95,236 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RealisticWater.shader",
-              "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Shader\\RealisticWater.shader",
-              "RelativeDocumentMoniker": "Assets\\Shader\\RealisticWater.shader",
-              "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Shader\\RealisticWater.shader",
-              "RelativeToolTip": "Assets\\Shader\\RealisticWater.shader",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAowLAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-07T19:31:37.872Z",
+              "Title": "EnemySpawnManager.cs",
+              "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Enemigo\\EnemySpawnManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemigo\\EnemySpawnManager.cs",
+              "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Enemigo\\EnemySpawnManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemigo\\EnemySpawnManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T05:06:26.257Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CandleFlame.shader",
-              "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Shader\\CandleFlame.shader",
-              "RelativeDocumentMoniker": "Assets\\Shader\\CandleFlame.shader",
-              "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Shader\\CandleFlame.shader",
-              "RelativeToolTip": "Assets\\Shader\\CandleFlame.shader",
-              "ViewState": "AgIAAMMAAAAAAAAAAAAAANoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-07T15:36:54.292Z",
+              "Title": "EnemyMelee.cs",
+              "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Enemigo\\EnemyMelee.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemigo\\EnemyMelee.cs",
+              "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Enemigo\\EnemyMelee.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemigo\\EnemyMelee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T05:05:58.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "InfernalFireParticles.cs",
-              "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Efectos\\InfernalFireParticles.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Efectos\\InfernalFireParticles.cs",
-              "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Efectos\\InfernalFireParticles.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Efectos\\InfernalFireParticles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "EnemyLanzador.cs",
+              "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Enemigo\\EnemyLanzador.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemigo\\EnemyLanzador.cs",
+              "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Enemigo\\EnemyLanzador.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemigo\\EnemyLanzador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T18:13:04.647Z"
+              "WhenOpened": "2025-11-09T05:05:35.194Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "InfernalDemonFire.shader",
-              "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Shader\\InfernalDemonFire.shader",
-              "RelativeDocumentMoniker": "Assets\\Shader\\InfernalDemonFire.shader",
-              "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Shader\\InfernalDemonFire.shader",
-              "RelativeToolTip": "Assets\\Shader\\InfernalDemonFire.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-04T17:51:19.757Z"
+              "Title": "NPCComerciante.cs",
+              "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\NPC\\NPCComerciante.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NPC\\NPCComerciante.cs",
+              "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\NPC\\NPCComerciante.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NPC\\NPCComerciante.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T05:04:30.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Chest.cs",
+              "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Objetos\\Chest.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Objetos\\Chest.cs",
+              "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Objetos\\Chest.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Objetos\\Chest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T05:03:37.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MapaPistas.cs",
+              "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Pista\\MapaPistas.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Pista\\MapaPistas.cs",
+              "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Pista\\MapaPistas.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Pista\\MapaPistas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T05:02:57.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ItemCollector.cs",
+              "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Inventario\\ItemCollector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventario\\ItemCollector.cs",
+              "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Inventario\\ItemCollector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventario\\ItemCollector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T05:02:09.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Inventario\\Item.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventario\\Item.cs",
+              "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Inventario\\Item.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventario\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T05:01:48.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InventorySystem.cs",
+              "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Inventario\\InventorySystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventario\\InventorySystem.cs",
+              "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Inventario\\InventorySystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventario\\InventorySystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T05:01:20.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Coin.cs",
+              "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Objetos\\Coin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Objetos\\Coin.cs",
+              "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Objetos\\Coin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Objetos\\Coin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T05:00:29.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlayerUI.cs",
+              "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Jugador\\PlayerUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\PlayerUI.cs",
+              "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Jugador\\PlayerUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Jugador\\PlayerUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T04:59:14.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlayerShooting.cs",
+              "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Jugador\\PlayerShooting.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\PlayerShooting.cs",
+              "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Jugador\\PlayerShooting.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Jugador\\PlayerShooting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T04:58:41.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Jugador\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Jugador\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Jugador\\PlayerController.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAAAMEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T04:58:01.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InputManager.cs",
+              "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Jugador\\InputManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\InputManager.cs",
+              "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Jugador\\InputManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Jugador\\InputManager.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAH0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T04:57:24.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BalaPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Jugador\\BalaPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\BalaPlayer.cs",
+              "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Jugador\\BalaPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Jugador\\BalaPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T04:56:48.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RuletaCasino.cs",
+              "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Ruleta\\RuletaCasino.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ruleta\\RuletaCasino.cs",
+              "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Ruleta\\RuletaCasino.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ruleta\\RuletaCasino.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T04:54:59.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SlotMachineManager.cs",
+              "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Tragamonedas\\SlotMachineManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tragamonedas\\SlotMachineManager.cs",
+              "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Tragamonedas\\SlotMachineManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tragamonedas\\SlotMachineManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T04:52:50.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MachinePart.cs",
+              "DocumentMoniker": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Tragamonedas\\MachinePart.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tragamonedas\\MachinePart.cs",
+              "ToolTip": "C:\\Users\\Melendi\\Downloads\\unityFin\\GameJamMIDJack\\Assets\\Scripts\\Tragamonedas\\MachinePart.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tragamonedas\\MachinePart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T04:50:43.352Z",
+              "EditorCaption": ""
             }
           ]
         },

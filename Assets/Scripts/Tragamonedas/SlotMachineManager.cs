@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,15 +7,14 @@ public class SlotMachineManager : MonoBehaviour
 {
     [Header("Referencias UI")]
     public GameObject slotMachineCanvas;
-    public Button buttonVidaCordura;
-    public Button buttonMonedas;
     public TextMeshProUGUI resultadoText;
     public TextMeshProUGUI simbolosText;
     public TextMeshProUGUI statsText;
+    public TextMeshProUGUI instruccionesText;
 
-    [Header("Referencias Visuales Máquina")]
-    public GameObject modeloMaquina; // El modelo 3D de la máquina
-    public Collider colliderMaquina; // El collider de la máquina
+    [Header("Referencias Visuales MÃ¡quina")]
+    public GameObject modeloMaquina;
+    public Collider colliderMaquina;
 
     [Header("Costos")]
     public int costoVida = 10;
@@ -28,15 +27,17 @@ public class SlotMachineManager : MonoBehaviour
     public int corduraGanada = 20;
     public int monedasGanadas = 10;
 
-    [Header("Símbolos")]
+    [Header("SÃ­mbolos")]
     public string[] simbolos = { "A", "B", "C", "D", "E", "F", "7", "X" };
+
+    [Header("Controles")]
+    public KeyCode teclaApostarVida = KeyCode.Y;
+    public KeyCode teclaApostarMonedas = KeyCode.H;
 
     private bool maquinaActiva = false;
     private bool jugando = false;
     private PlayerUI playerUI;
     private InventorySystem inventory;
-
-    // Partes de la máquina que el jugador debe encontrar
     private int partesEncontradas = 0;
     private const int PARTES_NECESARIAS = 5;
 
@@ -45,49 +46,51 @@ public class SlotMachineManager : MonoBehaviour
         playerUI = FindObjectOfType<PlayerUI>();
         inventory = FindObjectOfType<InventorySystem>();
 
-        // Ocultar UI al inicio
         if (slotMachineCanvas != null)
             slotMachineCanvas.SetActive(false);
 
-        // Ocultar la máquina física hasta que se encuentren todas las partes
         OcultarMaquina();
     }
 
     void OcultarMaquina()
     {
-        // Ocultar el modelo 3D
         if (modeloMaquina != null)
             modeloMaquina.SetActive(false);
-
-        // Desactivar el collider
         if (colliderMaquina != null)
             colliderMaquina.enabled = false;
-
-        Debug.Log("Máquina oculta - Encuentra las 5 partes para revelarla");
     }
 
     void MostrarMaquina()
     {
-        // Mostrar el modelo 3D
         if (modeloMaquina != null)
             modeloMaquina.SetActive(true);
-
-        // Activar el collider
         if (colliderMaquina != null)
             colliderMaquina.enabled = true;
-
-        Debug.Log("¡Máquina revelada! Ahora puedes acercarte y presionar O para jugar");
     }
 
     void Update()
     {
-        // Tecla O para abrir la máquina si está cerca y activa
         if (Input.GetKeyDown(KeyCode.O) && maquinaActiva && !jugando && partesEncontradas >= PARTES_NECESARIAS)
         {
             AbrirMaquina();
         }
 
-        // Actualizar stats en UI
+        if (slotMachineCanvas != null && slotMachineCanvas.activeSelf && !jugando)
+        {
+            if (Input.GetKeyDown(teclaApostarVida))
+            {
+                JugarConVidaCordura();
+            }
+            if (Input.GetKeyDown(teclaApostarMonedas))
+            {
+                JugarConMonedas();
+            }
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                CerrarMaquina();
+            }
+        }
+
         if (statsText != null && playerUI != null)
         {
             statsText.text = $"Vida: {playerUI.vida}\nCordura: {playerUI.cordura}\nFichas: {playerUI.fichas}";
@@ -99,8 +102,6 @@ public class SlotMachineManager : MonoBehaviour
         if (other.CompareTag("Player") && partesEncontradas >= PARTES_NECESARIAS)
         {
             maquinaActiva = true;
-
-            // Mostrar mensaje directo sin depender de PlayerUI
             if (playerUI != null && playerUI.mensajeTexto != null)
             {
                 playerUI.mensajeTexto.text = "Presiona O para jugar";
@@ -115,8 +116,6 @@ public class SlotMachineManager : MonoBehaviour
         {
             maquinaActiva = false;
             CerrarMaquina();
-
-            // Ocultar mensaje directo
             if (playerUI != null && playerUI.mensajeTexto != null)
             {
                 playerUI.mensajeTexto.gameObject.SetActive(false);
@@ -124,19 +123,14 @@ public class SlotMachineManager : MonoBehaviour
         }
     }
 
-    // Llamado cuando el jugador encuentra una parte
     public void EncontrarParte()
     {
         if (partesEncontradas < PARTES_NECESARIAS)
         {
             partesEncontradas++;
-            Debug.Log($"Parte encontrada: {partesEncontradas}/{PARTES_NECESARIAS}");
-
-            // Si se encontraron todas las partes, mostrar la máquina
             if (partesEncontradas >= PARTES_NECESARIAS)
             {
                 MostrarMaquina();
-                Debug.Log("¡Máquina tragamonedas armada! Busca la máquina para jugar.");
             }
         }
     }
@@ -148,8 +142,7 @@ public class SlotMachineManager : MonoBehaviour
             slotMachineCanvas.SetActive(true);
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
-            ActualizarBotones();
-            Debug.Log("Máquina abierta - UI visible");
+            ActualizarInstrucciones();
         }
     }
 
@@ -160,61 +153,60 @@ public class SlotMachineManager : MonoBehaviour
             slotMachineCanvas.SetActive(false);
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
-            Debug.Log("Máquina cerrada - UI oculta");
         }
     }
 
-    void ActualizarBotones()
+    void ActualizarInstrucciones()
     {
-        if (playerUI == null) return;
-
-        // Verificar si puede pagar con vida/cordura
-        bool puedeVidaCordura = (playerUI.vida >= costoVida && playerUI.cordura >= costoCordura);
-        if (buttonVidaCordura != null)
-            buttonVidaCordura.interactable = puedeVidaCordura && !jugando;
-
-        // Verificar si puede pagar con monedas
-        bool puedeMonedas = (playerUI.fichas >= costoMonedas);
-        if (buttonMonedas != null)
-            buttonMonedas.interactable = puedeMonedas && !jugando;
-
+        if (instruccionesText != null)
+        {
+            instruccionesText.text = $"<b>TRAGAMONEDAS - CONTROLES</b>\n\n" +
+                                   $"[Y] Apostar con Vida/Cordura\n" +
+                                   $" -{costoVida} Vida, -{costoCordura} Cordura\n\n" +
+                                   $"[H] Apostar con Monedas\n" +
+                                   $" -{costoMonedas} Monedas\n\n" +
+                                   $"[ESC] Salir\n\n" +
+                                   $"<size=80%>Encuentra 3 sÃ­mbolos iguales para ganar!</size>";
+        }
         if (resultadoText != null)
-            resultadoText.text = "Elige tu apuesta...";
+            resultadoText.text = "Elige tu apuesta con Y o H...";
     }
 
-    // BOTÓN 1: Pagar con Vida y Cordura
     public void JugarConVidaCordura()
     {
         if (jugando || playerUI == null) return;
 
-        // Verificar que tenga suficientes recursos
         if (playerUI.vida < costoVida || playerUI.cordura < costoCordura)
         {
-            Debug.Log("No tienes suficiente vida o cordura");
+            if (resultadoText != null)
+                resultadoText.text = "âŒ No tienes suficiente Vida/Cordura";
             return;
         }
 
-        // Quitar recursos
         playerUI.CambiarVida(-costoVida);
         playerUI.CambiarCordura(-costoCordura);
+
+        if (resultadoText != null)
+            resultadoText.text = $"Apostando {costoVida} Vida y {costoCordura} Cordura...";
 
         StartCoroutine(GirarRodillos());
     }
 
-    // BOTÓN 2: Pagar con Monedas
     public void JugarConMonedas()
     {
         if (jugando || playerUI == null) return;
 
-        // Verificar que tenga suficientes monedas
         if (playerUI.fichas < costoMonedas)
         {
-            Debug.Log("No tienes suficientes monedas");
+            if (resultadoText != null)
+                resultadoText.text = "âŒ No tienes suficientes Monedas";
             return;
         }
 
-        // Quitar monedas
         playerUI.CambiarFichas(-costoMonedas);
+
+        if (resultadoText != null)
+            resultadoText.text = $"Apostando {costoMonedas} Monedas...";
 
         StartCoroutine(GirarRodillos());
     }
@@ -222,23 +214,21 @@ public class SlotMachineManager : MonoBehaviour
     IEnumerator GirarRodillos()
     {
         jugando = true;
-        ActualizarBotones();
+        if (instruccionesText != null)
+            instruccionesText.text = "<b>ðŸŽ° GIRANDO...</b>";
 
-        if (resultadoText != null)
-            resultadoText.text = "Girando...";
-
-        // Animación de giro
         for (int i = 0; i < 15; i++)
         {
             if (simbolosText != null)
             {
-                string simboloRandom = simbolos[UnityEngine.Random.Range(0, simbolos.Length)];
-                simbolosText.text = simboloRandom + " | ? | ?";
+                string simboloRandom1 = simbolos[UnityEngine.Random.Range(0, simbolos.Length)];
+                string simboloRandom2 = simbolos[UnityEngine.Random.Range(0, simbolos.Length)];
+                string simboloRandom3 = simbolos[UnityEngine.Random.Range(0, simbolos.Length)];
+                simbolosText.text = $"{simboloRandom1} | {simboloRandom2} | {simboloRandom3}";
             }
             yield return new WaitForSeconds(0.08f);
         }
 
-        // Resultado final
         string simbolo1 = simbolos[UnityEngine.Random.Range(0, simbolos.Length)];
         string simbolo2 = simbolos[UnityEngine.Random.Range(0, simbolos.Length)];
         string simbolo3 = simbolos[UnityEngine.Random.Range(0, simbolos.Length)];
@@ -246,47 +236,40 @@ public class SlotMachineManager : MonoBehaviour
         if (simbolosText != null)
             simbolosText.text = $"{simbolo1} | {simbolo2} | {simbolo3}";
 
-        // Verificar combinaciones ganadoras
         yield return new WaitForSeconds(1f);
         VerificarResultado(simbolo1, simbolo2, simbolo3);
-
         jugando = false;
-        ActualizarBotones();
+        ActualizarInstrucciones();
     }
 
     void VerificarResultado(string s1, string s2, string s3)
     {
         if (resultadoText == null || playerUI == null) return;
 
-        // JACKPOT - Mapa para siguiente piso (777)
         if (s1 == "7" && s2 == "7" && s3 == "7")
         {
-            resultadoText.text = "JACKPOT! MAPA DESBLOQUEADO";
+            resultadoText.text = "ðŸŽŠ Â¡JACKPOT! ðŸŽŠ\nÂ¡MAPA DESBLOQUEADO!";
             DarMapaSiguientePiso();
         }
-        // Premio mayor - Vida y Cordura (AAA)
         else if (s1 == "A" && s2 == "A" && s3 == "A")
         {
-            resultadoText.text = "PREMIO MAYOR! +Vida y +Cordura";
+            resultadoText.text = "ðŸ† Â¡PREMIO MAYOR!\n+Vida y +Cordura";
             playerUI.CambiarVida(vidaGanada);
             playerUI.CambiarCordura(corduraGanada);
         }
-        // Tres símbolos iguales (BBB, CCC, etc.)
         else if (s1 == s2 && s2 == s3)
         {
-            resultadoText.text = "TRES IGUALES! +Monedas";
+            resultadoText.text = "ðŸŽ‰ Â¡TRES IGUALES!\n+Monedas";
             playerUI.CambiarFichas(monedasGanadas);
         }
-        // Dos símbolos iguales
         else if (s1 == s2 || s2 == s3 || s1 == s3)
         {
-            resultadoText.text = "DOS IGUALES! Pequeña recompensa";
+            resultadoText.text = "â­ Â¡DOS IGUALES!\nPequeÃ±a recompensa";
             playerUI.CambiarFichas(monedasGanadas / 2);
         }
-        // Perdió
         else
         {
-            resultadoText.text = "Sin premio. Intenta otra vez";
+            resultadoText.text = "ðŸ’” Sin premio\nIntenta otra vez";
         }
     }
 
@@ -296,7 +279,6 @@ public class SlotMachineManager : MonoBehaviour
         {
             Vector3 posicion = transform.position + Vector3.forward * 2f;
             Instantiate(mapaPrefab, posicion, Quaternion.identity);
-            Debug.Log("¡Mapa para siguiente piso generado! Busca el mapa y presiona 1 para ver la Pista 1");
         }
         else
         {
@@ -304,7 +286,6 @@ public class SlotMachineManager : MonoBehaviour
         }
     }
 
-    // Para cerrar la máquina
     public void CerrarUI()
     {
         CerrarMaquina();
